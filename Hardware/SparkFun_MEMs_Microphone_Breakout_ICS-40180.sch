@@ -246,10 +246,10 @@
 &lt;ul&gt;
 &lt;li&gt;ADMP401&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.1" layer="51"/>
+<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
 <wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
 <wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
 <wire x1="0.65" y1="0.105" x2="0.135" y2="0.655" width="0.3" layer="31" curve="70" cap="flat"/>
@@ -257,7 +257,7 @@
 <hole x="0" y="0" drill="0.9"/>
 <text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.029" y="-1.873" radius="0.254" width="0" layer="21"/>
+<circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
 <smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1"/>
@@ -4865,6 +4865,28 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
+<package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-0.2MM">
+<description>&lt;h3&gt;Fiducial - Circle, 0.2mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.2" dy="0.2" layer="1" roundness="100" stop="no" cream="no"/>
+<circle x="0" y="0" radius="0.06" width="0.1524" layer="29"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SFE_LOGO_FLAME">
@@ -8609,6 +8631,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="23.114" y="11.176" size="2.7432" layer="94" font="vector">&gt;DESIGNER</text>
 <text x="88.9" y="6.604" size="2.7432" layer="94" font="vector">&gt;REV</text>
 </symbol>
+<symbol name="FIDUCIAL">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SFE_LOGO_FLAME" prefix="LOGO">
@@ -8791,6 +8822,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
 <attribute name="VERSION" value="v01" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.2MM" package="FIDUCIAL-0.2MM">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -9827,6 +9882,10 @@ Part Number: HA-522</description>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
@@ -9925,6 +9984,10 @@ Part Number: HA-522</description>
 <attribute name="DESIGNER" x="170.434" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="236.22" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
+<instance part="FD1" gate="G$1" x="241.3" y="40.64" smashed="yes"/>
+<instance part="FD2" gate="G$1" x="243.84" y="40.64" smashed="yes"/>
+<instance part="FD3" gate="G$1" x="243.84" y="38.1" smashed="yes"/>
+<instance part="FD4" gate="G$1" x="241.3" y="38.1" smashed="yes"/>
 </instances>
 <busses>
 </busses>

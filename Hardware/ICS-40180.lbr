@@ -6,18 +6,18 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -38,13 +38,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -186,10 +186,10 @@
 &lt;ul&gt;
 &lt;li&gt;ADMP401&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.1" layer="51"/>
+<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
 <wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
 <wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
 <wire x1="0.65" y1="0.105" x2="0.135" y2="0.655" width="0.3" layer="31" curve="70" cap="flat"/>
@@ -197,7 +197,7 @@
 <hole x="0" y="0" drill="0.9"/>
 <text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.029" y="-1.873" radius="0.254" width="0" layer="21"/>
+<circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
 <smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1"/>

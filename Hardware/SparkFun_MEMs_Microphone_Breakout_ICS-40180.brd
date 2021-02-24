@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -57,7 +57,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -194,6 +194,7 @@
 <text x="16.51" y="3.81" size="1.27" layer="27" rot="R90">DNP</text>
 <text x="1.27" y="-1.778" size="1.016" layer="27">Mic Breakout</text>
 <text x="11.43" y="-11.43" size="1.778" layer="51" font="vector" ratio="9">Pete Lewis</text>
+<text x="0.254" y="5.08" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR90" align="bottom-center">v10</text>
 </plain>
 <libraries>
 <library name="ICS-40180">
@@ -210,10 +211,10 @@
 &lt;ul&gt;
 &lt;li&gt;ADMP401&lt;/li&gt;
 &lt;/ul&gt;</description>
-<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.1" layer="51"/>
-<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.1" layer="51"/>
+<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
 <wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
 <wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
 <wire x1="0.65" y1="0.105" x2="0.135" y2="0.655" width="0.3" layer="31" curve="70" cap="flat"/>
@@ -221,7 +222,7 @@
 <hole x="0" y="0" drill="0.9"/>
 <text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.029" y="-1.873" radius="0.254" width="0" layer="21"/>
+<circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
 <smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
 <smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1"/>
@@ -690,6 +691,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -1776,7 +1784,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.26" y="-0.24"/>
 <vertex x="2.33" y="-0.24"/>
 <vertex x="2.39" y="-0.23"/>
-<vertex x="2.44" y="-0.18"/>
+<vertex x="2.44" y="-0.19"/>
 <vertex x="2.48" y="-0.13"/>
 <vertex x="2.5" y="-0.06"/>
 <vertex x="2.5" y="0.01"/>
@@ -1810,7 +1818,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.67" y="-0.28"/>
 <vertex x="3.62" y="-0.33"/>
 <vertex x="3.57" y="-0.38"/>
-<vertex x="3.51" y="-0.42"/>
+<vertex x="3.51" y="-0.41"/>
 <vertex x="3.45" y="-0.44"/>
 <vertex x="3.39" y="-0.46"/>
 <vertex x="3.32" y="-0.47"/>
@@ -1825,7 +1833,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.72" y="-0.09"/>
 <vertex x="2.71" y="-0.16"/>
 <vertex x="2.69" y="-0.22"/>
-<vertex x="2.65" y="-0.28"/>
+<vertex x="2.66" y="-0.28"/>
 <vertex x="2.61" y="-0.33"/>
 <vertex x="2.57" y="-0.38"/>
 <vertex x="2.51" y="-0.42"/>
@@ -1855,12 +1863,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.81" y="-0.47"/>
 <vertex x="0.74" y="-0.43"/>
 <vertex x="0.38" y="-0.68"/>
-<vertex x="4.24" y="-0.68"/>
-<vertex x="4.28" y="-0.62"/>
-<vertex x="4.58" y="-0.01"/>
-<vertex x="4.56" y="0.05"/>
-<vertex x="4.26" y="0.65"/>
-<vertex x="4.2" y="0.68"/>
+<vertex x="4.58" y="-0.68"/>
+<vertex x="4.56" y="-0.62"/>
+<vertex x="4.25" y="-0.01"/>
+<vertex x="4.27" y="0.05"/>
+<vertex x="4.57" y="0.65"/>
+<vertex x="4.54" y="0.68"/>
 <vertex x="0.68" y="0.68"/>
 </polygon>
 <polygon width="0.01" layer="21">
@@ -2145,6 +2153,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$3" library="output" package="#GND#0" value="" x="12.319" y="5.08" smashed="yes" rot="MR0"/>
 <element name="U$4" library="output" package="#VCC#0" value="" x="12.319" y="2.54" smashed="yes" rot="MR0"/>
 <element name="U$5" library="output" package="#AUD#0" value="" x="12.319" y="7.62" smashed="yes" rot="MR0"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="12.192" y="9.017" smashed="yes"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="12.192" y="9.017" smashed="yes" rot="MR0"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.905" y="0.635" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="1.905" y="0.635" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -2187,7 +2199,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="13.335" y="0.6096" extent="1-16" drill="0.381"/>
 <via x="7.4168" y="0.635" extent="1-16" drill="0.381"/>
 <via x="9.9568" y="3.7338" extent="1-16" drill="0.381"/>
-<via x="0.762" y="5.0546" extent="1-16" drill="0.381"/>
 <via x="2.5146" y="5.3848" extent="1-16" drill="0.381"/>
 <via x="4.6736" y="4.2418" extent="1-16" drill="0.381"/>
 </signal>
@@ -2267,6 +2278,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="4,1,0abb8433582797aa"/>
+<approved hash="4,1,8b29e16ace60290c"/>
+</errors>
 </board>
 </drawing>
 </eagle>

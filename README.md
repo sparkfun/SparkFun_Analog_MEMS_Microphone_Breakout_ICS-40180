@@ -1,11 +1,11 @@
-SparkFun LoRa Thing Plus - expLoRaBLE
+SparkFun MEMS Microphone Breakout ICS-40180
 ========================================
 
-![SparkFun LoRa Thing Plus - expLoRaBLE](https://cdn.sparkfun.com//assets/parts/1/6/5/5/8/17506-SparkFun_LoRa_Thing_Plus_____expLoRaBLE-01.jpg)
+![SparkFun MEMS Microphone Breakout ICS-40180](https://cdn.sparkfun.com//assets/parts/1/6/5/5/8/17506-SparkFun_LoRa_Thing_Plus_____expLoRaBLE-01.jpg)
 
-[*SparkFun LoRa Thing Plus - expLoRaBLE (WRL-17506)*](https://www.sparkfun.com/products/17506)
+[*SparkFun MEMS Microphone Breakout ICS-40180 (BOB-18011)*](https://www.sparkfun.com/products/18011)
 
-The SparkFun LoRa Thing Plus - expLoRaBLE is a wireless development board in Thing Plus form factor that includes the NM180100 LoRa® Bluetooth® 5 Low Energy SiP. It is a global IoT solution ideal for long range, low power applications combining the transmit power of Semtech's LoRa® SX1262 with the processing power of Ambiq Micro's Apollo3 Blue.
+The SparkFun MEMS Microphone Breakout ICS-40180 makes it easy to work with the InvenSense ICS-40180 Analog microphone. It includes an opamp to bring output of the microphone to a usable level, allowing you to plug directly into an ADC on a microcontroller or something like the SparkFun Spectrum Shield. In addition to amplifying the signal, the opamp adds a bias voltage of 1/2 VCC. With sound sources such as normal talking voice a few feet away from the microphone, the AUD output signal will be at about 200mV peak-to-peak. Also note, this low profile microphone has it's port ont he bottom side, so the microphone can be mounted flush to the outer surface of your enclosure. This microphone is omni-directional, which means it does a good job of picking up sound sources from all driections.
 
 Repository Contents
 -------------------

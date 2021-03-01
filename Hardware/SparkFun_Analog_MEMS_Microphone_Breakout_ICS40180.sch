@@ -252,16 +252,15 @@
 <wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
 <wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
 <wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
-<wire x1="0.65" y1="0.105" x2="0.135" y2="0.655" width="0.3" layer="31" curve="70" cap="flat"/>
 <circle x="0" y="0" radius="0.7" width="0.5" layer="29"/>
 <hole x="0" y="0" drill="0.9"/>
 <text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
-<smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
-<smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1"/>
-<smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1"/>
-<smd name="5" x="-2.074" y="0.838" dx="0.522" dy="0.725" layer="1"/>
+<smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="5" x="-2.074" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
 <circle x="0" y="0" radius="0.8125" width="0.001" layer="49"/>
 <circle x="0" y="0" radius="0.5125" width="0.001" layer="49"/>
 <smd name="3" x="0.6604" y="-0.0104" dx="0.25" dy="0.25" layer="1" cream="no"/>
@@ -279,15 +278,20 @@
 <vertex x="-0.81" y="-0.01" curve="90"/>
 <vertex x="0" y="-0.81"/>
 </polygon>
-<wire x1="-0.105" y1="0.65" x2="-0.655" y2="0.135" width="0.3" layer="31" curve="70" cap="flat"/>
-<wire x1="-0.66" y1="-0.095" x2="-0.145" y2="-0.645" width="0.3" layer="31" curve="70" cap="flat"/>
-<wire x1="0.105" y1="-0.65" x2="0.655" y2="-0.135" width="0.3" layer="31" curve="70" cap="flat"/>
+<wire x1="-0.211678125" y1="0.624596875" x2="-0.6321375" y2="0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
 <wire x1="1.24" y1="0.83" x2="1.24" y2="1.52" width="0.254" layer="21"/>
 <wire x1="1.24" y1="1.52" x2="0.51" y2="1.52" width="0.254" layer="21"/>
 <wire x1="-2.07" y1="1.52" x2="-2.76" y2="1.52" width="0.254" layer="21"/>
 <wire x1="-2.76" y1="1.52" x2="-2.76" y2="0.79" width="0.254" layer="21"/>
 <wire x1="-2.76" y1="-0.83" x2="-2.76" y2="-1.52" width="0.254" layer="21"/>
 <wire x1="-2.76" y1="-1.52" x2="-2.03" y2="-1.52" width="0.254" layer="21"/>
+<wire x1="-0.624596875" y1="-0.211678125" x2="-0.178178125" y2="-0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
+<wire x1="0.211678125" y1="-0.624596875" x2="0.6321375" y2="-0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
+<wire x1="0.624596875" y1="0.211678125" x2="0.178178125" y2="0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
+<rectangle x1="-2.26821875" y1="-1.13538125" x2="-1.88468125" y2="-0.55118125" layer="31"/>
+<rectangle x1="-1.447796875" y1="-1.1277625" x2="-1.064259375" y2="-0.5435625" layer="31"/>
+<rectangle x1="-1.44525625" y1="0.55371875" x2="-1.06171875" y2="1.13791875" layer="31"/>
+<rectangle x1="-2.273296875" y1="0.55371875" x2="-1.889759375" y2="1.13791875" layer="31"/>
 </package>
 </packages>
 <symbols>

@@ -1,11 +1,11 @@
 SparkFun MEMS Microphone Breakout ICS-40180
 ========================================
 
-![SparkFun MEMS Microphone Breakout ICS-40180](https://cdn.sparkfun.com//assets/parts/1/6/5/5/8/17506-SparkFun_LoRa_Thing_Plus_____expLoRaBLE-01.jpg)
+[![SparkFun MEMS Microphone Breakout (ICS-40180)]()](https://www.sparkfun.com/products/18011)
 
-[*SparkFun MEMS Microphone Breakout ICS-40180 (BOB-18011)*](https://www.sparkfun.com/products/18011)
+[*SparkFun MEMS Microphone Breakout (ICS-40180) (BOB-18011)*](https://www.sparkfun.com/products/18011)
 
-The SparkFun MEMS Microphone Breakout ICS-40180 makes it easy to work with the InvenSense ICS-40180 Analog microphone. It includes an opamp to bring output of the microphone to a usable level, allowing you to plug directly into an ADC on a microcontroller or something like the SparkFun Spectrum Shield. In addition to amplifying the signal, the opamp adds a bias voltage of 1/2 VCC. With sound sources such as normal talking voice a few feet away from the microphone, the AUD output signal will be at about 200mV peak-to-peak. Also note, this low profile microphone has it's port ont he bottom side, so the microphone can be mounted flush to the outer surface of your enclosure. This microphone is omni-directional, which means it does a good job of picking up sound sources from all driections.
+The SparkFun MEMS Microphone Breakout (ICS-40180) makes it easy to work with the InvenSense ICS-40180 analog microphone. It includes an OpAmp to bring output of the microphone to a usable level, allowing you to plug directly into an ADC on a microcontroller or something like the SparkFun Spectrum Shield. In addition to amplifying the signal, the OpAmp adds a bias voltage of 1/2 VCC. With sound sources such as normal talking voice a few feet away from the microphone, the AUD output signal will be at about 200mV peak-to-peak. Also note, this low profile microphone has its port on the bottom side, so the microphone can be mounted flush to the outer surface of your enclosure. This microphone is omni-directional, which means it does a good job of picking up sound sources from all directions.
 
 Repository Contents
 -------------------
@@ -16,7 +16,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-explorable-hookup-guide)** - Basic hookup guide for the [LoRa Thing Plus - expLoRaBLE](https://www.sparkfun.com/products/17506).
+* **[Hookup Guide]()** - Basic hookup guide for the SparkFun MEMS microphone breakout.
 
 License Information
 -------------------

@@ -187,192 +187,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="VCC2">
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="-1.016" y="3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="VCC2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="ICS-40180">
-<packages>
-<package name="ICS40180">
-<description>&lt;h3&gt;ADMP401 Bottom Port Microphone&lt;/h3&gt;
-&lt;p&gt;&lt;a href="http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/ADMP401.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;
-&lt;li&gt;Pin Count: 6&lt;/li&gt;
-&lt;li&gt;Area: 4.72 x 3.76 x 1.0 mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Devices Using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;ADMP401&lt;/li&gt;
-&lt;/ul&gt;</description>
-<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.2032" layer="51"/>
-<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.2032" layer="51"/>
-<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.2032" layer="51"/>
-<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
-<wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
-<wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
-<circle x="0" y="0" radius="0.7" width="0.5" layer="29"/>
-<hole x="0" y="0" drill="0.9"/>
-<text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
-<smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
-<smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
-<smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
-<smd name="5" x="-2.074" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
-<circle x="0" y="0" radius="0.8125" width="0.001" layer="49"/>
-<circle x="0" y="0" radius="0.5125" width="0.001" layer="49"/>
-<smd name="3" x="0.6604" y="-0.0104" dx="0.25" dy="0.25" layer="1" cream="no"/>
-<polygon width="0.01" layer="1">
-<vertex x="0" y="-0.52" curve="-90"/>
-<vertex x="-0.52" y="0" curve="-90"/>
-<vertex x="0" y="0.52" curve="-90"/>
-<vertex x="0.52" y="0"/>
-<vertex x="0.52" y="-0.01" curve="-90"/>
-<vertex x="0.01" y="-0.52"/>
-<vertex x="0.01" y="-0.81" curve="90"/>
-<vertex x="0.81" y="-0.01"/>
-<vertex x="0.81" y="0" curve="90"/>
-<vertex x="0" y="0.81" curve="90"/>
-<vertex x="-0.81" y="-0.01" curve="90"/>
-<vertex x="0" y="-0.81"/>
-</polygon>
-<wire x1="-0.211678125" y1="0.624596875" x2="-0.6321375" y2="0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
-<wire x1="1.24" y1="0.83" x2="1.24" y2="1.52" width="0.254" layer="21"/>
-<wire x1="1.24" y1="1.52" x2="0.51" y2="1.52" width="0.254" layer="21"/>
-<wire x1="-2.07" y1="1.52" x2="-2.76" y2="1.52" width="0.254" layer="21"/>
-<wire x1="-2.76" y1="1.52" x2="-2.76" y2="0.79" width="0.254" layer="21"/>
-<wire x1="-2.76" y1="-0.83" x2="-2.76" y2="-1.52" width="0.254" layer="21"/>
-<wire x1="-2.76" y1="-1.52" x2="-2.03" y2="-1.52" width="0.254" layer="21"/>
-<wire x1="-0.624596875" y1="-0.211678125" x2="-0.178178125" y2="-0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
-<wire x1="0.211678125" y1="-0.624596875" x2="0.6321375" y2="-0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
-<wire x1="0.624596875" y1="0.211678125" x2="0.178178125" y2="0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
-<rectangle x1="-2.26821875" y1="-1.13538125" x2="-1.88468125" y2="-0.55118125" layer="31"/>
-<rectangle x1="-1.447796875" y1="-1.1277625" x2="-1.064259375" y2="-0.5435625" layer="31"/>
-<rectangle x1="-1.44525625" y1="0.55371875" x2="-1.06171875" y2="1.13791875" layer="31"/>
-<rectangle x1="-2.273296875" y1="0.55371875" x2="-1.889759375" y2="1.13791875" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ICS40180">
-<description>&lt;h3&gt;ICS-40180 - RF-Hardened, Low-Noise MEMs Microphone with Bottom Port and Analog Output&lt;/h3&gt;
-&lt;p&gt;
-The ICS-40180* is an analog MEMS microphone with high SNR
-and enhanced RF immunity. The ICS-40180 includes a MEMS
-microphone element, an impedance converter, and an output
-amplifier.
-&lt;/p&gt;
-&lt;p&gt;
-Other high-performance specification include a linear
-response up to 124 dB SPL, tight ±1 dB sensitivity tolerance,
-and enhanced immunity to both radiated and conducted RF
-interference.
-&lt;/p&gt;
-&lt;p&gt;
-The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
-0.98 mm, surface-mount package.
-&lt;/p&gt;</description>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-4.826" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-4.826" x2="7.62" y2="-4.826" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-4.826" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.62" y="-5.08" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
-<pin name="VDD" x="-10.16" y="2.54" visible="pin" length="short"/>
-<pin name="OUT" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ICS40180" prefix="U">
-<description>&lt;h3&gt;ICS-40180 - RF-Hardened, Low-Noise MEMs Microphone with Bottom Port and Analog Output&lt;/h3&gt;
-&lt;p&gt;
-The ICS-40180* is an analog MEMS microphone with high SNR
-and enhanced RF immunity. The ICS-40180 includes a MEMS
-microphone element, an impedance converter, and an output
-amplifier.
-&lt;/p&gt;
-&lt;p&gt;
-Other high-performance specification include a linear
-response up to 124 dB SPL, tight ±1 dB sensitivity tolerance,
-and enhanced immunity to both radiated and conducted RF
-interference.
-&lt;/p&gt;
-&lt;p&gt;
-The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
-0.98 mm, surface-mount package.
-&lt;/p&gt;
-
-
-
-&lt;p&gt;&lt;a href="https://invensense.tdk.com/wp-content/uploads/2015/02/DS-000021-v1.22.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4&gt;SparkFun Products&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - ICS-40180&lt;/a&gt; (BOB-18011)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18010"&gt;MEMS Microphone - ICS40180&lt;/a&gt; (COM-18010)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="ICS40180" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ICS40180">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 3 4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="VDD" pad="5"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-15819" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Resistors">
 <description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
 This library contains resistors. Reference designator:R. 
@@ -9708,6 +9522,222 @@ Part Number: HA-522</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Sensors&lt;/h3&gt;
+This library contains sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application.
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ICS40180">
+<description>&lt;h3&gt;ADMP401 Bottom Port Microphone&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://www.analog.com/media/en/technical-documentation/obsolete-data-sheets/ADMP401.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pin Count: 6&lt;/li&gt;
+&lt;li&gt;Area: 4.72 x 3.76 x 1.0 mm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Devices Using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ADMP401&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="1.04" y1="1.325" x2="-2.56" y2="1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="1.325" x2="-2.56" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="-2.56" y1="-1.325" x2="1.04" y2="-1.325" width="0.2032" layer="51"/>
+<wire x1="1.04" y1="-1.325" x2="1.04" y2="1.325" width="0.2032" layer="51"/>
+<wire x1="0.55" y1="-1.52" x2="1.24" y2="-1.52" width="0.254" layer="21"/>
+<wire x1="1.24" y1="-1.52" x2="1.24" y2="-0.79" width="0.254" layer="21"/>
+<circle x="0" y="0" radius="0.7" width="0.5" layer="29"/>
+<hole x="0" y="0" drill="0.9"/>
+<text x="-0.86" y="1.783" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="-0.8" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<circle x="-3.029" y="-1.873" radius="0.127" width="0.254" layer="21"/>
+<smd name="1" x="-2.074" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="2" x="-1.252" y="-0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="4" x="-1.252" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<smd name="5" x="-2.074" y="0.838" dx="0.522" dy="0.725" layer="1" cream="no"/>
+<circle x="0" y="0" radius="0.8125" width="0.001" layer="49"/>
+<circle x="0" y="0" radius="0.5125" width="0.001" layer="49"/>
+<smd name="3" x="0.6604" y="-0.0104" dx="0.25" dy="0.25" layer="1" cream="no"/>
+<polygon width="0.01" layer="1">
+<vertex x="0" y="-0.52" curve="-90"/>
+<vertex x="-0.52" y="0" curve="-90"/>
+<vertex x="0" y="0.52" curve="-90"/>
+<vertex x="0.52" y="0"/>
+<vertex x="0.52" y="-0.01" curve="-90"/>
+<vertex x="0.01" y="-0.52"/>
+<vertex x="0.01" y="-0.81" curve="90"/>
+<vertex x="0.81" y="-0.01"/>
+<vertex x="0.81" y="0" curve="90"/>
+<vertex x="0" y="0.81" curve="90"/>
+<vertex x="-0.81" y="-0.01" curve="90"/>
+<vertex x="0" y="-0.81"/>
+</polygon>
+<wire x1="-0.211678125" y1="0.624596875" x2="-0.6321375" y2="0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
+<wire x1="1.24" y1="0.83" x2="1.24" y2="1.52" width="0.254" layer="21"/>
+<wire x1="1.24" y1="1.52" x2="0.51" y2="1.52" width="0.254" layer="21"/>
+<wire x1="-2.07" y1="1.52" x2="-2.76" y2="1.52" width="0.254" layer="21"/>
+<wire x1="-2.76" y1="1.52" x2="-2.76" y2="0.79" width="0.254" layer="21"/>
+<wire x1="-2.76" y1="-0.83" x2="-2.76" y2="-1.52" width="0.254" layer="21"/>
+<wire x1="-2.76" y1="-1.52" x2="-2.03" y2="-1.52" width="0.254" layer="21"/>
+<wire x1="-0.624596875" y1="-0.211678125" x2="-0.178178125" y2="-0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
+<wire x1="0.211678125" y1="-0.624596875" x2="0.6321375" y2="-0.178178125" width="0.3" layer="31" curve="60" cap="flat"/>
+<wire x1="0.624596875" y1="0.211678125" x2="0.178178125" y2="0.6321375" width="0.3" layer="31" curve="60" cap="flat"/>
+<rectangle x1="-2.26821875" y1="-1.13538125" x2="-1.88468125" y2="-0.55118125" layer="31"/>
+<rectangle x1="-1.447796875" y1="-1.1277625" x2="-1.064259375" y2="-0.5435625" layer="31"/>
+<rectangle x1="-1.44525625" y1="0.55371875" x2="-1.06171875" y2="1.13791875" layer="31"/>
+<rectangle x1="-2.273296875" y1="0.55371875" x2="-1.889759375" y2="1.13791875" layer="31"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ICS40180">
+<description>&lt;h3&gt;ICS-40180 - RF-Hardened, Low-Noise MEMs Microphone with Bottom Port and Analog Output&lt;/h3&gt;
+&lt;p&gt;
+The ICS-40180* is an analog MEMS microphone with high SNR
+and enhanced RF immunity. The ICS-40180 includes a MEMS
+microphone element, an impedance converter, and an output
+amplifier.
+&lt;/p&gt;
+&lt;p&gt;
+Other high-performance specification include a linear
+response up to 124 dB SPL, tight ±1 dB sensitivity tolerance,
+and enhanced immunity to both radiated and conducted RF
+interference.
+&lt;/p&gt;
+&lt;p&gt;
+The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
+0.98 mm, surface-mount package.
+&lt;/p&gt;</description>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-4.826" x2="7.62" y2="-4.826" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-4.826" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="5.334" size="1.778" layer="95" font="vector">&gt;Name</text>
+<text x="-7.62" y="-5.08" size="1.778" layer="96" font="vector" align="top-left">&gt;Value</text>
+<pin name="VDD" x="-10.16" y="2.54" visible="pin" length="short"/>
+<pin name="OUT" x="10.16" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="-10.16" y="-2.54" visible="pin" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ICS40180" prefix="U">
+<description>&lt;h3&gt;ICS-40180 - RF-Hardened, Low-Noise MEMs Microphone with Bottom Port and Analog Output&lt;/h3&gt;
+&lt;p&gt;
+The ICS-40180* is an analog MEMS microphone with high SNR
+and enhanced RF immunity. The ICS-40180 includes a MEMS
+microphone element, an impedance converter, and an output
+amplifier.
+&lt;/p&gt;
+&lt;p&gt;
+Other high-performance specification include a linear
+response up to 124 dB SPL, tight ±1 dB sensitivity tolerance,
+and enhanced immunity to both radiated and conducted RF
+interference.
+&lt;/p&gt;
+&lt;p&gt;
+The ICS-40180 is available in a small, 3.5 mm × 2.65 mm ×
+0.98 mm, surface-mount package.
+&lt;/p&gt;
+
+
+
+&lt;p&gt;&lt;a href="https://invensense.tdk.com/wp-content/uploads/2015/02/DS-000021-v1.22.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18011"&gt;SparkFun MEMS Microphone Breakout - ICS-40180&lt;/a&gt; (BOB-18011)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/18010"&gt;MEMS Microphone - ICS40180&lt;/a&gt; (COM-18010)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ICS40180" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ICS40180">
+<connects>
+<connect gate="G$1" pin="GND" pad="2 3 4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-15819" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-PowerSymbols">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="VCC">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+<symbol name="DGND">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VCC" prefix="SUPPLY">
+<description>&lt;h3&gt;VCC Voltage Supply&lt;/h3&gt;
+&lt;p&gt;Positive voltage supply (traditionally for a BJT device, C=collector).&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND" prefix="GND">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9719,25 +9749,25 @@ Part Number: HA-522</description>
 </classes>
 <parts>
 <part name="JP1" library="SparkFun-Connectors" deviceset="CONN_03" device="1X03_NO_SILK"/>
-<part name="GND1" library="SparkFun" deviceset="GND" device=""/>
-<part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
-<part name="P+2" library="SparkFun" deviceset="VCC" device=""/>
-<part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="P+1" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="P+2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="P+3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="300KOHM" device="-0603-1/10W-1%" value="300k"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="27PF" device="-0603-50V-5%" value="27pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
-<part name="GND3" library="SparkFun" deviceset="GND" device=""/>
-<part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
-<part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
-<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
+<part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="P+4" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="P+5" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="U2" library="ICS-40180" deviceset="ICS40180" device=""/>
+<part name="U2" library="SparkFun-Sensors" deviceset="ICS40180" device=""/>
 <part name="U1" library="SparkFun-IC-Amplifiers" deviceset="OPA344" device="" value="OPA344"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
@@ -10332,16 +10362,16 @@ Bias: 1/2*VCC</text>
 <instance part="GND1" gate="1" x="182.88" y="78.74" smashed="yes">
 <attribute name="VALUE" x="180.34" y="76.2" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+1" gate="1" x="182.88" y="101.6" smashed="yes">
+<instance part="P+1" gate="G$1" x="182.88" y="101.6" smashed="yes">
 <attribute name="VALUE" x="181.864" y="105.156" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+2" gate="1" x="195.58" y="127" smashed="yes">
+<instance part="P+2" gate="G$1" x="195.58" y="127" smashed="yes">
 <attribute name="VALUE" x="194.564" y="130.556" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND2" gate="1" x="195.58" y="114.3" smashed="yes">
 <attribute name="VALUE" x="193.04" y="111.76" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+3" gate="1" x="50.8" y="127" smashed="yes">
+<instance part="P+3" gate="G$1" x="50.8" y="127" smashed="yes">
 <attribute name="VALUE" x="49.784" y="130.556" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="R1" gate="G$1" x="160.02" y="104.14" smashed="yes" rot="R90">
@@ -10374,10 +10404,10 @@ Bias: 1/2*VCC</text>
 <instance part="GND4" gate="1" x="157.48" y="76.2" smashed="yes">
 <attribute name="VALUE" x="154.94" y="73.66" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+4" gate="1" x="160.02" y="111.76" smashed="yes">
+<instance part="P+4" gate="G$1" x="160.02" y="111.76" smashed="yes">
 <attribute name="VALUE" x="159.004" y="115.316" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+5" gate="1" x="35.56" y="127" smashed="yes">
+<instance part="P+5" gate="G$1" x="35.56" y="127" smashed="yes">
 <attribute name="VALUE" x="34.544" y="130.556" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="GND5" gate="1" x="50.8" y="114.3" smashed="yes">
@@ -10467,28 +10497,28 @@ Bias: 1/2*VCC</text>
 <wire x1="198.12" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="124.46" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="J$1" pin="1"/>
-<pinref part="P+2" gate="1" pin="VCC"/>
+<pinref part="P+2" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="127" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="124.46" x2="50.8" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="VCC"/>
+<pinref part="P+3" gate="G$1" pin="VCC"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="109.22" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="P+4" gate="1" pin="VCC"/>
+<pinref part="P+4" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
 <wire x1="182.88" y1="99.06" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="VCC"/>
+<pinref part="P+1" gate="G$1" pin="VCC"/>
 <pinref part="U1" gate="G2" pin="P$V+"/>
 </segment>
 <segment>
 <wire x1="35.56" y1="124.46" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<pinref part="P+5" gate="1" pin="VCC"/>
+<pinref part="P+5" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$2" class="0">
